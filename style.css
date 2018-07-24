@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  background: url(/assets/images//gabriel-barletta-87533-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.drum__title {
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.container {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.drumkit {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  grid-gap: 2rem;
+  background:rgba(0, 0, 0, 0.8);
+  padding: 40px;
+}
+
+.key {
+  border: .4rem solid darkgray;
+  border-radius: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+  transition: all .07s ease;
+  text-align: center;
+  color: white;
+  width: 150px;
+  background: rgba(50,50,50,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
