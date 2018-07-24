@@ -13,7 +13,7 @@ body {
   font-family: sans-serif;
   font-size: 1.6rem;
   color: #fff;
-  background: url(/assets/images//gabriel-barletta-87533-unsplash.jpg);
+  background: url('/assets/images//gabriel-barletta-87533-unsplash.jpg');
   background-size: cover;
   height: 100vh;
   display: flex;
